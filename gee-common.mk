@@ -35,6 +35,9 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     charger
 
+PRODUCT_PACKAGES := \
+	Launcher3
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
         LiveWallpapers \

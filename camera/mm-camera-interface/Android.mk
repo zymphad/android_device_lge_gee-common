@@ -1,3 +1,4 @@
+ifneq ($(filter geeb geehrc geespr,$(TARGET_DEVICE)),)
 LOCAL_PATH:= $(call my-dir)
 LOCAL_DIR_PATH:= $(call my-dir)
 include $(CLEAR_VARS)

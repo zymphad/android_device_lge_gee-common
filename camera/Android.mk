@@ -1,3 +1,4 @@
+ifneq ($(filter geeb geehrc geespr,$(TARGET_DEVICE)),)
 LOCAL_PATH:= $(call my-dir)
 
 ifeq ($(TARGET_BOARD_PLATFORM),msm8960)

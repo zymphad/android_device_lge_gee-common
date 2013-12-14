@@ -1,4 +1,4 @@
-
+ifneq ($(filter geeb geehrc geespr,$(TARGET_DEVICE)),)
 #ifeq ($(call is-board-platform,msm8960),true)
 OLD_LOCAL_PATH := $(LOCAL_PATH)
 LOCAL_PATH := $(call my-dir)

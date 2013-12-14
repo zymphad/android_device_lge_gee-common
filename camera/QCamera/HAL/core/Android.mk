@@ -89,3 +89,5 @@ include $(BUILD_SHARED_LIBRARY)
 
 LOCAL_PATH := $(OLD_LOCAL_PATH)
 
+endif
+

@@ -135,3 +135,4 @@ endif
 endif # USE_CAMERA_STUB
 endif
 endif
+endif

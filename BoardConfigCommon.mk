@@ -84,7 +84,6 @@ WIFI_DRIVER_FW_PATH_AP  := "ap"
 
 BOARD_EGL_CFG := device/lge/gee-common/conf/egl.cfg
 
-
 #BOARD_USES_HGL := true
 #BOARD_USES_OVERLAY := true
 USE_OPENGL_RENDERER := true
@@ -143,7 +142,6 @@ BOARD_SEPOLICY_UNION := \
        system.te \
        ueventd.te \
        wpa.te
-
 
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
